@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+echo "Opdaterer servere..."
+apt update;apt upgrade -y;apt dist-upgrade -y;
+echo "Done."
